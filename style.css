@@ -443,6 +443,7 @@ a:active {
 }
 .wp-caption .wp-caption-text {
 	margin: 0.8075em 0;
+	display: none;
 }
 .site-main .gallery {
 	margin-bottom: 1.5em;
@@ -546,11 +547,12 @@ h1.site-title a {
 	color: #484848;
 	display: block;
 	margin: 20px 0px;
+	width: 1000px;
 }
 .logo-container {
 	position: relative;
 		top: -15px;
-	margin-bottom: -15px;		
+	margin-bottom: -15px;
 }
 .main_logo {
 	max-width: 360px;
@@ -607,9 +609,9 @@ h1.site-title a {
 	background:none repeat scroll 0 0 hsl(0, 0%, 85%);
 	color:#000;
 	/*border-bottom: solid 4px #222;
-	padding-top: 17px;*/ 
+	padding-top: 17px;*/
 }
-	
+
 .main-navigation ul ul {
 	/*box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);*/
 	display: none;
@@ -681,7 +683,7 @@ h1.site-title a {
 }
 /*Content Regions*/
 #content {
-	margin-top: 100px;	
+	margin-top: 100px;
 	width: 1100px;
 	margin: auto;
 }
@@ -690,7 +692,7 @@ h1.site-title a {
 	float: left;
 	padding: 15px;
 	padding-top: 0px;
-	background: #f7f7f7;
+	background: #fff;
 	border:1px solid hsl(0, 0%, 95%);
 }
 .primary-full {
@@ -720,9 +722,9 @@ h1.entry-title a:hover {
 	text-decoration:underline;
 	color: #000;
 }
-.entry-meta { 
+.entry-meta {
 	font-size: 12px;
-	background: #f1f1f1;
+	background: #fff;
 	padding: 3px 5px;
 }
 .entry-meta a {
@@ -747,7 +749,7 @@ span.comments-link {
 article.post {
 	padding-bottom: 50px;
 	background: url('images/divider.png') bottom left repeat-x;
-	
+
 }
 entry-meta .comments-link { float: right; }
 
@@ -819,7 +821,7 @@ h1.widget-title {
 	display: none;
 }
 
-	
+
 
 /*slider*/
 #slider-wrapper {
@@ -873,7 +875,7 @@ article blockquote:before {
 	position: relative;
 		left: -60px;
 		top: -30px;
-	padding: none;	
+	padding: none;
 	display: block;
 	height: 0;
 }
@@ -908,9 +910,9 @@ article blockquote:before {
  article ol ol ol {
 	 list-style: lower-alpha;
  }
- 
+
  /*Comments Section */
- 
+
  h2.comments-title {
 	 font-size: 26px;
 	 text-transform: uppercase;
@@ -937,14 +939,14 @@ article blockquote:before {
  .comment-meta img {
 	 width: 70px;
 	 border-radius: 65px;
-	 padding: 0px 25px;	 
+	 padding: 0px 25px;
  }
  .comment-content {
 	 width: 530px;
 	 float: left;
 	 background: #fff;
 	 margin-top: 20px;
-	 padding: 15px;	 
+	 padding: 15px;
  }
  li.comment li.comment:before {
 	 display: block;
@@ -967,7 +969,7 @@ article blockquote:before {
  	width: 429px !important;
  }
  .depth-5 .comment-content {
-	width: 404px !important;	 
+	width: 404px !important;
  }
 
 /*comment Form*/
@@ -1041,7 +1043,7 @@ h3#reply-title {
 	margin-top: -20px;
 }
 #respond #submit {
-	width: 125px;
+	width: 170px;
 }
 p.logged-in-as {
 	display: block;
@@ -1058,7 +1060,7 @@ p.logged-in-as {
 	border: none;
 	font-size: 14px;
 	width: 66%;
-	font-family: "Lato", Arial, Helvetica, sans-serif;	
+	font-family: "Lato", Arial, Helvetica, sans-serif;
     border: 1px solid hsl(0, 0%, 88%);
     border-radius: 5px 0 0 5px;
     color: hsl(0, 0%, 60%);
@@ -1078,7 +1080,7 @@ p.logged-in-as {
 	color: #000;
 	font-size:13px;
 	text-shadow: none;
-	text-transform: uppercase; 
+	text-transform: uppercase;
 }
 .widget_search input[type=submit]:hover {
 	background: #060;
@@ -1165,7 +1167,7 @@ td#next {
 	width: 48px;
 	border: solid 4px #eee;
 }
-.rp-title {	
+.rp-title {
 	clear: none;
 }
 .rp-title a {
@@ -1201,7 +1203,7 @@ td#next {
 	}
 	#primary { width: 95%; }
 	#secondary { width: 60%; float: none; margin: auto; }
-	
+
 	.site-info, #footer-navigation, #footertext {
 		display: block;
 		min-width: 80%;
@@ -1214,7 +1216,7 @@ td#next {
 		  left: -20px;
 	}
 }
-				
+
 /*For all remaining Mobile Sizes*/
 @media screen and (max-width: 767px) {
 	header#masthead, #nav-container, #content, #slider-wrapper, #footer-container {
@@ -1233,7 +1235,7 @@ td#next {
 		text-align: center;
 		float: none;
 		margin: auto;
-		margin-bottom: 15px;		
+		margin-bottom: 15px;
 	}
 	.menu-toggle,
 	.main-navigation.toggled .nav-menu {
@@ -1279,7 +1281,7 @@ td#next {
 	}
 	#primary { width: 95%; }
 	#secondary { width: 90%; float: none; margin: auto; }
-	
+
 	h1.entry-title, h1.entry-title a {
 		font-size: 26px;
 		font-weight: bold;
@@ -1298,7 +1300,7 @@ td#next {
 	#primary {
 		padding-left: 4px;
 	}
-	
+
 	/*Special responsive comments section for mobile devices.*/
 	.comment-content {
 		width: 90% !important;
@@ -1334,7 +1336,7 @@ td#next {
     position: relative;
     text-shadow: none;
     text-transform: uppercase;
-}	
+}
 	#colophon {
 		width: 95%;
 	}
